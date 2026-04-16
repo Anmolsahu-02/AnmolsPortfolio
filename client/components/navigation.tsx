@@ -72,10 +72,14 @@ export function Navigation() {
         <nav className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
           <motion.a
             href="#"
-            className="text-xl font-bold text-foreground hover:text-primary transition-colors"
-            whileHover={{ scale: 1.02 }}
+            className="flex items-center hover:opacity-80 transition-opacity"
+            whileHover={{ scale: 1.05 }}
           >
-            AS
+            <img 
+              src="/favicon.png" 
+              alt="Anmol Sahu" 
+              className="w-8 h-8"
+            />
           </motion.a>
 
           <ul className="hidden lg:flex items-center gap-6">
