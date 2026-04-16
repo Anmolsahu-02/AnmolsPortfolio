@@ -29,14 +29,14 @@ const certifications = [
 
 const achievements = [
   {
-    title: "Smart India Hackathon Finalist",
-    description: "Reached the finals of Smart India Hackathon 2024 with an innovative solution for education technology.",
+    title: "Organized College Hackathon",
+    description: "Successfully organized a college hackathon with over 600 participants, fostering innovation and collaboration among students.",
     icon: Trophy,
-    year: "2024",
+    year: "2026",
   },
   {
-    title: "College Code Sprint Winner",
-    description: "Won first place in the annual coding competition among 200+ participants.",
+    title: "College Coding Hour Top Performer",
+    description: "Achieved top performer status in the College Coding Hour challenge with consistent high scores and problem-solving skills.",
     icon: Medal,
     year: "2023",
   },

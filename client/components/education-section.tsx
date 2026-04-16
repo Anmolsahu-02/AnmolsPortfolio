@@ -7,26 +7,26 @@ const education = [
   {
     type: "education",
     title: "Bachelor of Technology in Computer Science",
-    institution: "XYZ University",
-    period: "2021 - 2025",
+    institution: "JK Lakshimipat University",
+    period: "2023 - 2027",
     description: "Pursuing B.Tech in Computer Science with focus on software development, data structures, and algorithms.",
-    grade: "CGPA: 8.5/10",
+    grade: "CGPA: 8.8/10",
   },
   {
     type: "education",
     title: "Higher Secondary Education (XII)",
-    institution: "ABC Senior Secondary School",
-    period: "2019 - 2021",
+    institution: "HKH public Secondary School",
+    period: "2021 - 2023",
     description: "Completed 12th grade with Science stream (Physics, Chemistry, Mathematics).",
-    grade: "Percentage: 92%",
+    grade: "Percentage: 88%",
   },
   {
     type: "education",
     title: "Secondary Education (X)",
-    institution: "ABC Secondary School",
-    period: "2019",
+    institution: "KV Ranikhet",
+    period: "2019 - 2021",
     description: "Completed 10th grade with distinction in Mathematics and Science.",
-    grade: "Percentage: 95%",
+    grade: "Percentage: 97%",
   },
 ]
 
@@ -34,16 +34,9 @@ const experience = [
   {
     type: "experience",
     title: "Web Development Intern",
-    institution: "Tech Startup Inc.",
-    period: "June 2024 - August 2024",
+    institution: "Neerja Softwares Ltd.",
+    period: "May 2024 - August 2024",
     description: "Developed responsive web applications using React and Node.js. Collaborated with senior developers on production-level code.",
-  },
-  {
-    type: "experience",
-    title: "Open Source Contributor",
-    institution: "Various Projects",
-    period: "2023 - Present",
-    description: "Active contributor to open-source projects. Fixed bugs, added features, and improved documentation for community projects.",
   },
   {
     type: "experience",
@@ -68,20 +61,20 @@ function TimelineItem({ item, index, isLeft }: { item: typeof education[0], inde
       
       {/* Content card */}
       <div className="ml-8 md:ml-0 w-full group">
-        <div className="bg-card/80 backdrop-blur-sm rounded-2xl p-6 border border-border/50 hover:border-primary/50 transition-all duration-300">
-          <div className="flex items-center gap-2 text-primary text-sm font-medium mb-2">
-            <Calendar className="w-4 h-4" />
+        <div className="bg-card/80 backdrop-blur-sm rounded-3xl p-8 border border-border/50 hover:border-primary/50 transition-all duration-300">
+          <div className="flex items-center gap-2 text-primary text-base font-medium mb-3">
+            <Calendar className="w-5 h-5" />
             {item.period}
           </div>
-          <h3 className="text-lg font-bold text-foreground mb-1 group-hover:text-primary transition-colors">
+          <h3 className="text-xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
             {item.title}
           </h3>
-          <p className="text-primary/80 font-medium text-sm mb-3">{item.institution}</p>
-          <p className="text-muted-foreground text-sm leading-relaxed mb-2">
+          <p className="text-primary/80 font-medium text-base mb-4">{item.institution}</p>
+          <p className="text-muted-foreground text-base leading-relaxed mb-4">
             {item.description}
           </p>
           {"grade" in item && (
-            <span className="inline-block px-3 py-1 text-xs font-medium rounded-full bg-primary/10 text-primary">
+            <span className="inline-block px-4 py-2 text-sm font-medium rounded-full bg-primary/10 text-primary">
               {item.grade}
             </span>
           )}
