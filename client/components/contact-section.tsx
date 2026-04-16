@@ -69,7 +69,7 @@ export function ContactSection() {
             {`Let's Work Together`}
           </h2>
           <p className="text-lg text-muted-foreground max-w-xl mx-auto">
-            {`Have a project in mind or just want to say hello? I'd love to hear from you. 
+            {`Got something to say regaring projects or just want to chat, Do message. I'd love to hear from you. 
             Fill out the form below and I'll get back to you as soon as possible.`}
           </p>
         </motion.div>
