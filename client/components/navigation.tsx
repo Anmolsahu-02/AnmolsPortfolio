@@ -78,7 +78,7 @@ export function Navigation() {
             <img 
               src="/favicon.png" 
               alt="Anmol Sahu" 
-              className="w-8 h-8"
+              className="w-12 h-12"
             />
           </motion.a>
 
