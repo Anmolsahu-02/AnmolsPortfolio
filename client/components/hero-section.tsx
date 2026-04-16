@@ -71,7 +71,7 @@ export function HeroSection() {
               size="lg"
               className="group px-8 py-6 text-base font-medium bg-primary text-primary-foreground hover:bg-primary/90 rounded-full"
             >
-              <a href="/api/download/pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/Resume_AnmolSahu.pdf" target="_blank" rel="noopener noreferrer">
                 <Download className="mr-2 w-5 h-5 group-hover:animate-bounce" />
                 Download CV (PDF)
               </a>
@@ -82,7 +82,7 @@ export function HeroSection() {
               variant="outline"
               className="group px-8 py-6 text-base font-medium rounded-full border-primary/50 hover:bg-primary/10"
             >
-              <a href="/api/download/docx" target="_blank" rel="noopener noreferrer">
+              <a href="/Resume_AnmolSahu.docx" target="_blank" rel="noopener noreferrer">
                 <FileText className="mr-2 w-5 h-5" />
                 Download CV (Word)
               </a>

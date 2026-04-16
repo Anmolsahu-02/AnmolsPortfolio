@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Github, Linkedin, Twitter, Mail, Heart, ArrowUp } from "lucide-react"
+import { Github, Linkedin, Twitter, Mail, ArrowUp } from "lucide-react"
 
 const socialLinks = [
   { name: "GitHub", icon: Github, href: "https://github.com/anmolsahu" },
@@ -65,8 +65,8 @@ export function Footer() {
         </div>
 
         <div className="mt-8 pt-6 border-t border-border/50 text-center">
-          <p className="text-sm text-muted-foreground flex items-center justify-center gap-1">
-            Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> by Anmol Sahu
+          <p className="text-sm text-muted-foreground">
+            Made by Anmol Sahu/
           </p>
           <p className="text-xs text-muted-foreground/70 mt-2">
             &copy; {new Date().getFullYear()} All rights reserved.

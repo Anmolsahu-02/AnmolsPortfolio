@@ -28,6 +28,7 @@ export function AboutSection() {
         <div className="grid lg:grid-cols-5 gap-12 items-center">
           {/* Profile Image */}
           <motion.div
+          
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6 }}
@@ -37,8 +38,11 @@ export function AboutSection() {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl bg-gradient-to-br from-primary/30 via-accent/20 to-primary/10 p-1">
                 <div className="w-full h-full rounded-2xl bg-card/90 backdrop-blur-sm flex items-center justify-center overflow-hidden border border-border">
-                  {/* Profile placeholder - replace with actual image */}
-                  <div className="text-8xl font-bold text-primary/30">AS</div>
+                  <img 
+                    src="/profileimage.png" 
+                    alt="Anmol Sahu" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
               {/* Decorative elements */}
